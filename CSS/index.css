@@ -1,0 +1,341 @@
+body{
+    background-image: linear-gradient(to top right, #dbe4e3,#e9dee2);
+}
+/* 轮播图 */
+.header{
+    height: 100px;
+    background-color: #fe9e4a;
+}
+.banner{
+    width: 1530px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul{
+    width: 99999px;
+    height: 100px;
+    position: absolute;
+    left: 0;/* 通过变化left的值来进行轮播动画 */
+    top: 0;
+}
+.banner li{
+    width: 1530px;
+    height: 100px;
+    float: left;
+}
+.banner .prev ,.banner .next{
+    width: 16px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+.banner .prev{
+    left: 0;
+    background-image: url(../images/标志.png);
+}
+.banner .next{
+    right: 0;
+    background-image: url(../images/标志2.png);
+}
+
+/* 搜索栏 */
+.search {
+    height: 140px;
+    background-image: linear-gradient(to right,#f1e8df, #e6e0e2);
+    position: relative;
+}
+.logo {
+    width: 224px;
+    height: 73px;
+    position: absolute;
+    left: 224px;
+    top: 50%;
+    margin-top: -36px;
+}
+.sear {
+    width: 788px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -28px;
+    margin-left: -394px;   
+    background-color: #fff;
+    border-radius: 28px;
+}
+.sear input{
+    display: inline-block;
+    width: 688px;
+    height: 56px;
+    line-height: 56px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 20px;
+    border-radius: 28px;
+}
+.sear .button{
+    display: block;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    padding: 0 20px;
+    background-image: linear-gradient(to right, #ff8900, #fd4800);
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 22px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+/* 导航栏 */
+.navigation{
+    width: 1484px;
+    height: 542px;
+    margin: 0 auto;
+    position: relative;
+}
+.naviga{
+    width: 1074px;
+    height: 539px;
+    margin: 0;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+.naviga h3{
+    font-size: 18px;
+    display: inline-block;
+}
+.nav {
+    width: 270px;
+    height: 539px;
+}
+.nav h3{
+    font-weight: normal;
+    display: block;
+    width: 247px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 23px;
+}
+.nav a{
+    padding: 0 0 0 20px;
+    display: block;
+    height: 41px;
+    width: 250px;
+    line-height: 41px;
+    font-size: 15px;
+    color: #000;
+    transition: all 0.2s linear 0s;
+}
+.nav a:hover{
+    background-color: #ff8900;
+}
+.title{
+    width: 752px;
+    height: 57px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    line-height: 57px;
+    font-size: 20px;
+}
+
+.title-1{
+    margin: 0 56px 0 10px;
+    color: #f7285c;
+}
+.title-2{
+    color:#f7574b;
+}
+.ban1, .ban2,.ban3{
+    width: 368px;
+    height: 238px;
+    position: absolute;
+    top: 57px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+.ban1{
+    right: 25px;
+}
+.ban2{
+    right: 409px;
+}
+.ban3{
+    width: 750px;
+    height: 209px;
+    top: 309px;
+    right: 25px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+.title-3, .title-5,.title-7{
+    font-weight: 18px;
+    margin: 22px 22px 17px 22px;
+}
+.title-4, .title-6,.title-8{
+    width: 83px;
+    height: 25px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #a279ff, #805fff);
+}
+.title-5,.title-7{
+    font-weight: normal;
+}
+.title-6{
+    background-image: linear-gradient(to right, #f0646f, #ef2727);
+}
+.ban1 li{
+    margin: 0 -8px 0 20px;
+    float: left;
+}
+.ban2 li{
+    margin: 0 -8px 0 20px;
+    float: left;
+}
+.ban3 li{
+    float: left;
+    margin: 0 2px 0 44px;
+}
+/* 登录 */
+.landing{
+    width: 384px;
+    height: 540px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+.hi{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center;
+}
+.hi h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+.land{
+    width: 384px;
+    height: 150px;
+    margin: 150px auto 0 auto;
+}
+.land input{
+    display: block;
+    height: 40px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ff5000;
+    font-size: 18px;
+}
+.land button{
+    display: inline-block;
+    width: 100px;
+    height: 43px;
+    line-height: 43px;
+    border: none;
+    margin: 5px 0 0 60px;
+    padding: 0 10px;
+    background-color: #ff5000;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+.land span{
+    display: inline-block;
+    width: 120px;
+    height: 43px;
+    border: 1px solid #a16d3e;
+    line-height: 43px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px 0 0 40px;
+}
+.land a{
+    display: block;
+    color: red;
+    font-size: 15px;
+}
+.serve h3{
+    display: block;
+    margin: 59px 0 50px 25px;
+}
+.serve img{
+    display: block;
+    margin:  auto;
+}
+/* 广告 */
+.guanggao{
+    width: 1490px;
+    height: 92px;
+    margin: 24px auto 28px auto;
+}
+/* 商品列表 */
+.list{
+    width: 1493px;
+    height: 429px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+.list h3{
+    display: inline-block;
+}
+.hh1{
+    font-size: 28px;
+    font-weight: normal;
+    position: absolute;
+    top: 25px;
+    left: 26px;
+}
+.hh2{
+    text-align: center;
+    font-size: 17px;
+    width: 82px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 152px;
+    background-image: linear-gradient(to right, #ed913e,#f75527);
+    border-radius: 5px;
+}
+.pro-lists{
+    margin: 90px auto 0 auto;
+    height: 340px;
+    
+}
+.pro-lists li{
+    display: block;
+    float: left;
+    margin: 0 -13px 0 33px;
+}
+.pro-lists h4{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 15px 0 0 7px;
+    line-height:30px;
+}
